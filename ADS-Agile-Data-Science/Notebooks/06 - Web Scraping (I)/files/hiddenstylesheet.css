@@ -1,0 +1,27 @@
+div{
+
+	border
+	height:300px;
+	width:600px;
+	background-color:lightgray;
+	font-size:18px;
+	font-family:Futura;
+	aling:middle;
+	padding:10px;
+}
+
+div div{
+	position:relative;
+	left:225px;
+	height:50px;
+	width:100px;
+	background-color:red;
+	font-family:Verdana;
+	color:white;
+	padding:10px;
+	border:3px;
+	border-color:orange;
+	border-style:solid;
+	border-radius:15px;
+
+}

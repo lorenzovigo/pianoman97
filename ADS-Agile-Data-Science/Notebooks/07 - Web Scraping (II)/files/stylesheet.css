@@ -1,0 +1,63 @@
+div {
+	border-radius: 5px;
+}
+
+img {
+	height:100px;
+	widht:100px;
+	border-radius:100%;
+	margin-top:10px;
+}
+
+
+
+ul li{
+	font-family:Verdana;
+	font-size:24px;
+	color:white;
+}
+
+.head{
+	z-index:1;
+	position: fixed;
+	width:97%;
+	margin-top:-20px;
+	height:120px;
+	padding:10px;
+	background-color:orange;
+	margin-top: 140 px;
+	margin-bottom: 10 px;
+}
+
+.navbar{
+	float:left;
+	width: 15%;
+	background-color:red;
+	margin-right: 10px;
+	margin-top: 140px;
+	height: 600px;
+}
+
+.right{
+	float: right;
+	width: 83%;
+	height:600px;
+	margin-top:140px;
+	background-color: #FFCC66;
+}
+
+.right table{
+	padding:20px;
+	font-size:24px;
+	font-family:Verdana;
+}
+
+li:hover{
+	font-weight:bold;
+}
+
+#email {
+	float: right;
+	font-family:Verdana,sans-serif;
+	font-size:24px;
+}

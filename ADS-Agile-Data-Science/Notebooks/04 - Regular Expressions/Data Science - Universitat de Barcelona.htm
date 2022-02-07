@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Science - Universitat de Barcelona </title>
+    <meta name="description" content="Data Science Programs and Courses at the Universitat de Barcelona - Master's Degree in Foundations of Data Science, Data Science Postgraduate and Big Data Course and Deep Learning from Scracth Course using Tensor Flow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap and Font Awesome css-->
+    <!-- we use cdn but you can also include local files located in css directory-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Google fonts - Roboto Condensed for headings, Open Sans for copy-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,700%7COpen+Sans:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <!-- Favicon-->
+    
+    <style>
+      #map-container { height: 300px }
+  </style>
+  </head>
+  <body data-spy="scroll" data-target="#navigation" data-offset="120">
+    <!-- intro-->
+<header class="header">
+      <div class="sticky-wrapper">
+        <div role="navigation" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header"> <button type="button" data-toggle="collapse"
+                data-target=".navbar-collapse"
+                class="navbar-toggle"><span
+                  class="icon-bar"></span><span
+                  class="icon-bar"></span><span
+                  class="icon-bar"></span></button><a
+                href="#intro"
+                onClick="ga('send', 'event', 'link', 'hub', 'goToUB');"
+                class="navbar-brand scroll-to"><img
+                  src="img/logo.png"
+                  alt=""></a>
+            </div>
+            <div id="navigation" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#contact" onClick="ga('send', 'event', 'navigation', 'hub', 'contact');">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="intro" class="intro image-background">
+      <div class="content">
+        <div class="container clearfix">
+          <div class = "row">
+            <div class="col-md-6 col-md-offset-3 col-sm-12">
+              <h2>Data science programs and courses at University of Barcelona</h2>
+            </div>
+
+          </div>
+          <div class="row">
+		<div class="col-md-2 col-md-offset-2 col-sm-12">
+        <a href="master/" class="tips" title="Official Master Program on Foundations of Data Science" onClick="ga('send', 'event', 'navigation', 'hub', 'goToMaster');"><i class="fa fa-area-chart fa-5x" aria-hidden="true"></i><h3>MASTER OF FOUNDATIONS OF DATA SCIENCE</h3></a>
+		</div>
+		<div class="col-md-2 col-md-offset-1 col-sm-12">
+      <a href="deep/" class="tips" title="Summer course on Deep Learning" onClick="ga('send', 'event', 'navigation', 'hub', 'gotToDeep');"><i class="fa fa-align-center fa-5x" aria-hidden="true"></i><h3>DEEP LEARNING SUMMER COURSE</h3></a>
+		</div>
+		<div class="col-md-2 col-md-offset-1 col-sm-12">
+      <a href="postgraduate" class="tips" title="Postgraduate course on Introduction to Data Science and Big Data" onClick="ga('send', 'event', 'navigation', 'hub', 'goToDataScienceCourse');"><i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i><h3>DATA SCIENCE AND BIG DATA COURSE</h3></a>
+		</div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- navbar-->
+
+
+
+<section id="contact">
+    <div class="container clearfix">
+            <div class="row">
+              <div class="col-md-4 col-md-offset-4">
+                    <h2 class="heading">get in touch</h2>
+                    <div class="icon_title_wrap">
+                      <div class="ico"><i class="icon-map-marker"></i></div>
+                      <p>Please, contact us if you have any question.</p>
+                  </div>
+            </div>
+         </div>
+    </div>
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-md-3  wow fadeInLeft animated">-->
+                <div class="col-md-3 ">
+                    <div class="single_contact_info">
+                        <h2>Email Us</h2>
+                        <p>master.fds@ub.edu</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                <!--<div class="col-md-9  wow fadeInRight animated">-->
+                    <form class="contact-form" method="post" name="contact_form" action="contact-form-handler.php">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                                <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..." name="message"></textarea>
+                                <button type="submit" value="Submit" onClick="ga('send', 'event', 'hub', 'sendMessage', 'sendMessageHUB');" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work-with   wow fadeInUp animated">
+                        <p>Looking forward to hearing from you!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <footer>
+      <div class="container">
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="roboto">©2016 Universitat de Barcelona. </p>
+            <p class="roboto"> Fotografia superior realitzada per
+              https://www.flickr.com/photos/leoglenn_g CC BY-ND 3.0 i modificada
+              posteriorment</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit roboto"><a href="http://bootstrapious.com/portfolio-themes">Bootstrap
+                Portfolio Themes</a></p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-16428035-8', 'auto');
+	  ga('send', 'pageview');
+
+    </script>
+
+  </body>
+</html>
