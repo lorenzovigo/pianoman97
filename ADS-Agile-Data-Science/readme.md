@@ -1,0 +1,2 @@
+No final exam.
+A huge web project with embedded models must be developed during the course, delivered following the sprint structure of AGILE methodologies. The grade is based on following the work philosophy rather than on the quality of the project itself.
