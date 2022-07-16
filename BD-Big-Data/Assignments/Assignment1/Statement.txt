@@ -1,0 +1,66 @@
+Topics covered
+
+Docker containers and Docker-compose
+NoSQL
+Marking Scheme (Total 100 points)
+
+Dockerize the app to collect data from Twitter (30 points)
+Publish the docker image of your app in docker hub in your account (20 points)
+Change the app to store data in mongoDb. Run the app with mongoDB (using images from docker-hub) using docker-compose (50 points). Depending on how nicely you do this the marks can vary from 30-50.
+Mode of submission zip upload
+
+Format of submission Your zip should contain the following
+
+1) src folder with all your source code
+
+2) DockerFile for your app you used to dockerize the app.
+
+3) docker-compose.yaml Final docker-compose file to run your app and the MongoDB together.
+
+
+
+Instructions
+
+1) Collecting Data from Twitter
+
+Generate an account on twitter and create an app to get credentials for getting data
+
+httpsdeveloper.twitter.comenapps
+
+Sample of how to create an account
+
+httpstowardsdatascience.comaccess-data-from-twitter-api-using-r-and-or-python-b8ac342d3efe
+
+This might be old so look up the latest instructions or just follow getting started in the Twitter API web page
+
+As a Data scientist, you would be spending time collecting data from a different sources. Take this as an exercise on learning how to get data from public sources based on documentation.
+
+If you can't finish this step send me an email and I will share my API keys with you for this step.
+
+2) Dockerize the app to collect data from Twitter
+
+- Create a small python code that get tweets from Twitter using some tags like corona or ukraine.
+
+- save the json data (you can filter the json to have some important fields only) into a file.
+
+hint you can use this notebook which has the code to do the above steps  httpscampusvirtual.ub.edupluginfile.php5320583mod_assignintroTwitter.ipynb 
+
+Now your main task is to dockerize your application. This means creating a docker image that contains this code and required dependency so that anyone can run the docker image to run your application.
+
+Hint httpsrunnable.comdockerpythondockerize-your-python-application
+
+3) Publish the Docker image of your app in the docker hub in your account
+
+4) Docker compose with mongo
+
+The sample code gets data from Twitter and saves it a JSON. Change it to save the data in MongoDB using pymongo.
+
+Use mongoDB docker image to run it locally and then connect to that docker using pymongo library
+
+Create a docker-compose file to run your updated application and mongoDB together.
+
+
+
+Hint2 Use the new twitter_updated.ipynb with keys embedded and it will work
+
+httpscampusvirtual.ub.edupluginfile.php5320583mod_assignintroTwitter_updated.ipynb 
